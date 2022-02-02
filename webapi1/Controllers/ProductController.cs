@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Infrastucture.Data;
 using Core.Entity;
+using Core.Interfaces;
 
 namespace webapi1.Controller;
 
@@ -13,11 +14,11 @@ namespace webapi1.Controller;
 
 public class ProductController : ControllerBase
 {
-    private StoreContext _storeContext;
+    private IProductRepository _iProductRepository;
 
-    public ProductController(StoreContext storecontext)
+    public ProductController(IProductRepository iproductRepository)
     {
-        _storeContext = storecontext;
+        _iProductRepository = iproductRepository;
 
 
     }
@@ -25,8 +26,25 @@ public class ProductController : ControllerBase
     [HttpGet]
     public async Task < ActionResult <List<Product>>> GetAllProducts()
     {
-        var listOfProduct =  await _storeContext.Products.ToListAsync();
-        
+        var listOfProduct = await _iProductRepository.GetProductListAsync();   
+        return Ok(listOfProduct);
+
+    }
+
+
+    [HttpGet("brand")]
+
+    public async Task<ActionResult<List<ProductType>>> GetAllProductType()
+    {
+        var listOfProduct = await _iProductRepository.GetProductTypeAsync();
+        return Ok(listOfProduct);
+
+    }
+
+    [HttpGet("type")]
+    public async Task<ActionResult<List<ProductBrand>>> GetAllProductBrand()
+    {
+        var listOfProduct = await _iProductRepository.GetProductBrandAsync();
         return Ok(listOfProduct);
 
     }
@@ -37,8 +55,8 @@ public class ProductController : ControllerBase
     public async Task < ActionResult<Product>> GetProduct(int id)
     {
 
-        var product = await _storeContext.Products.FindAsync(id);
-         return Ok(product); 
+        var product = await _iProductRepository.GetProductAsync(id);
+        return Ok(product); 
     
     
     }
