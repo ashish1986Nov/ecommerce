@@ -2,10 +2,12 @@
 using AutoMapper;
 using Core.Entity;
 using Core.Interfaces;
+using Core.Specifications;
 using Microsoft.AspNetCore.Mvc;
 using webapi1.API.Controllers;
 using webapi1.API.DTO;
 using webapi1.API.Errors;
+using webapi1.API.Helpers;
 
 namespace webapi1.API.Controller;
 
@@ -32,14 +34,25 @@ public class ProductController : BaseApiController
     }
 
     [HttpGet]
-    public async Task < ActionResult <IReadOnlyList<ProductDto>>> GetAllProducts()
+    public async Task < ActionResult <Pageinitation<ProductDto>>> GetAllProducts
+        (  [FromQuery] ProductSpecsParams specsParams )
     {
-        var listOfProduct = await IGenericProductRepository.ListAllAsync();
 
-        //var prodDtoList = DtoConverter.DobConvertedProdList(listOfProduct);
+        var specs = new ProductWithTypesAndBrandSpecefications(specsParams);
+
+        var countSpecs = new ProductWithCountSpecefication(specsParams);
+
+        var totalItems = await IGenericProductRepository.CountAsync(countSpecs);
 
 
-        return Ok(IMapperMap.Map<IReadOnlyList<Product>, IReadOnlyList<ProductDto>>(listOfProduct));
+        var listOfProduct = await IGenericProductRepository.ListAsync(specs);
+
+
+        var data = IMapperMap.Map<IReadOnlyList<Product>, IReadOnlyList<ProductDto>>(listOfProduct);
+
+        return Ok(new Pageinitation<ProductDto>(specsParams.PageIndex
+            , specsParams.PageSize, totalItems,data)
+            );
 
     }
 
@@ -50,7 +63,11 @@ public class ProductController : BaseApiController
 
     public async Task<ActionResult<ProductDto>> GetProduct(int id)
     {
-        var product = await IGenericProductRepository.GetByIdAsync(id);
+        var specs = new ProductWithTypesAndBrandSpecefications(id);
+
+
+
+        var product = await IGenericProductRepository.GetEntityWithSpec(specs);
 
         if (product == null)
         {

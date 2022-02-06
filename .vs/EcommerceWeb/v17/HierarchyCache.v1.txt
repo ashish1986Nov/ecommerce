@@ -1,32 +1,100 @@
 ﻿++Solution 'EcommerceWeb' ‎(3 of 3 projects)
 i:{00000000-0000-0000-0000-000000000000}:EcommerceWeb.sln
+++Core
+i:{00000000-0000-0000-0000-000000000000}:Core
+i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:e:\ecommerceweb\core\core.csproj
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\core\core.csproj
+++Dependencies
+i:{d16ba37f-4896-43ad-8380-091c4041b40a}:>338
+i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:>337
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:>620
+++Entity
+i:{d16ba37f-4896-43ad-8380-091c4041b40a}:e:\ecommerceweb\core\entity\
+++BaseEntity.cs
+i:{d16ba37f-4896-43ad-8380-091c4041b40a}:e:\ecommerceweb\core\entity\baseentity.cs
+++Product.cs
+i:{d16ba37f-4896-43ad-8380-091c4041b40a}:e:\ecommerceweb\core\entity\product.cs
+++ProductBrand.cs
+i:{d16ba37f-4896-43ad-8380-091c4041b40a}:e:\ecommerceweb\core\entity\productbrand.cs
+++ProductType.cs
+i:{d16ba37f-4896-43ad-8380-091c4041b40a}:e:\ecommerceweb\core\entity\producttype.cs
+++Interfaces
+i:{d16ba37f-4896-43ad-8380-091c4041b40a}:e:\ecommerceweb\core\interfaces\
+++IGenericRepository.cs
+i:{d16ba37f-4896-43ad-8380-091c4041b40a}:e:\ecommerceweb\core\interfaces\igenericrepository.cs
+++IProductRepository.cs
+i:{d16ba37f-4896-43ad-8380-091c4041b40a}:e:\ecommerceweb\core\interfaces\iproductrepository.cs
+++Analyzers
+i:{d16ba37f-4896-43ad-8380-091c4041b40a}:analyzers
+i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:analyzers
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:analyzers
+++Frameworks
+i:{d16ba37f-4896-43ad-8380-091c4041b40a}:frameworks
+i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:frameworks
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:frameworks
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{d16ba37f-4896-43ad-8380-091c4041b40a}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{d16ba37f-4896-43ad-8380-091c4041b40a}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++System.Text.Json.SourceGeneration
+i:{d16ba37f-4896-43ad-8380-091c4041b40a}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.NETCore.App
+i:{d16ba37f-4896-43ad-8380-091c4041b40a}:e:\ecommerceweb\core\microsoft.netcore.app
+i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:e:\ecommerceweb\infrastucture\microsoft.netcore.app
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\microsoft.netcore.app
 ++Infrastucture
 i:{00000000-0000-0000-0000-000000000000}:Infrastucture
 i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\infrastucture\infrastucture.csproj
-++Dependencies
-i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:>291
-i:{d16ba37f-4896-43ad-8380-091c4041b40a}:>290
-i:{ec02a231-4627-45ea-b541-e8362692de9c}:>568
+++Config
+i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:e:\ecommerceweb\infrastucture\config\
+++EntityConfiguration.cs
+i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:e:\ecommerceweb\infrastucture\config\entityconfiguration.cs
 ++Data
 i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:e:\ecommerceweb\infrastucture\data\
 ++StoreContext.cs
 i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:e:\ecommerceweb\infrastucture\data\storecontext.cs
+++StoreContextSeed.cs
+i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:e:\ecommerceweb\infrastucture\data\storecontextseed.cs
 ++Migrations
 i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:e:\ecommerceweb\infrastucture\migrations\
 ++20220130114625_test.cs
 i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:e:\ecommerceweb\infrastucture\migrations\20220130114625_test.cs
 ++20220130114752_test1.cs
 i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:e:\ecommerceweb\infrastucture\migrations\20220130114752_test1.cs
+++20220202041837_efcore1.cs
+i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:e:\ecommerceweb\infrastucture\migrations\20220202041837_efcore1.cs
+++20220202044232_efcore2.cs
+i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:e:\ecommerceweb\infrastucture\migrations\20220202044232_efcore2.cs
+++20220202054401_efcore3.cs
+i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:e:\ecommerceweb\infrastucture\migrations\20220202054401_efcore3.cs
+++20220202145055_core11.cs
+i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:e:\ecommerceweb\infrastucture\migrations\20220202145055_core11.cs
 ++StoreContextModelSnapshot.cs
 i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:e:\ecommerceweb\infrastucture\migrations\storecontextmodelsnapshot.cs
-++Analyzers
-i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:analyzers
-i:{d16ba37f-4896-43ad-8380-091c4041b40a}:analyzers
-i:{ec02a231-4627-45ea-b541-e8362692de9c}:analyzers
-++Frameworks
-i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:frameworks
-i:{d16ba37f-4896-43ad-8380-091c4041b40a}:frameworks
-i:{ec02a231-4627-45ea-b541-e8362692de9c}:frameworks
+++Repository
+i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:e:\ecommerceweb\infrastucture\repository\
+++GenericRepository.cs
+i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:e:\ecommerceweb\infrastucture\repository\genericrepository.cs
+++ProductRepository.cs
+i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:e:\ecommerceweb\infrastucture\repository\productrepository.cs
+++SeedData
+i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:e:\ecommerceweb\infrastucture\seeddata\
+++brands.json
+i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:e:\ecommerceweb\infrastucture\seeddata\brands.json
+++brands.json.bak
+i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:e:\ecommerceweb\infrastucture\seeddata\brands.json.bak
+++delivery.json
+i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:e:\ecommerceweb\infrastucture\seeddata\delivery.json
+++products.json
+i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:e:\ecommerceweb\infrastucture\seeddata\products.json
+++types.json
+i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:e:\ecommerceweb\infrastucture\seeddata\types.json
 ++Packages
 i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:packages
 i:{ec02a231-4627-45ea-b541-e8362692de9c}:packages
@@ -37,58 +105,98 @@ i:{ec02a231-4627-45ea-b541-e8362692de9c}:projects
 i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:e:\ecommerceweb\infrastucture\migrations\20220130114625_test.designer.cs
 ++20220130114752_test1.Designer.cs
 i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:e:\ecommerceweb\infrastucture\migrations\20220130114752_test1.designer.cs
-++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
-i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-i:{d16ba37f-4896-43ad-8380-091c4041b40a}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-i:{ec02a231-4627-45ea-b541-e8362692de9c}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-++Microsoft.CodeAnalysis.NetAnalyzers
-i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-i:{d16ba37f-4896-43ad-8380-091c4041b40a}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-i:{ec02a231-4627-45ea-b541-e8362692de9c}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++20220202041837_efcore1.Designer.cs
+i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:e:\ecommerceweb\infrastucture\migrations\20220202041837_efcore1.designer.cs
+++20220202044232_efcore2.Designer.cs
+i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:e:\ecommerceweb\infrastucture\migrations\20220202044232_efcore2.designer.cs
+++20220202054401_efcore3.Designer.cs
+i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:e:\ecommerceweb\infrastucture\migrations\20220202054401_efcore3.designer.cs
+++20220202145055_core11.Designer.cs
+i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:e:\ecommerceweb\infrastucture\migrations\20220202145055_core11.designer.cs
 ++Microsoft.EntityFrameworkCore.Analyzers
 i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:c:\users\lenovo\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.1\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
 i:{ec02a231-4627-45ea-b541-e8362692de9c}:c:\users\lenovo\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.1\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
 ++Microsoft.Extensions.Logging.Generators
 i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:c:\users\lenovo\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
 i:{ec02a231-4627-45ea-b541-e8362692de9c}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
-++System.Text.Json.SourceGeneration
-i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-i:{d16ba37f-4896-43ad-8380-091c4041b40a}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-i:{ec02a231-4627-45ea-b541-e8362692de9c}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-++Microsoft.NETCore.App
-i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:e:\ecommerceweb\infrastucture\microsoft.netcore.app
-i:{d16ba37f-4896-43ad-8380-091c4041b40a}:e:\ecommerceweb\core\microsoft.netcore.app
-i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\microsoft.netcore.app
 ++Microsoft.EntityFrameworkCore (6.0.1)
-i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:>602
+i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:>650
 ++Microsoft.EntityFrameworkCore.Relational (6.0.1)
-i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:>603
+i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:>651
 ++Microsoft.EntityFrameworkCore.Tools (6.0.1)
-i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:>604
-++Core
-i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:e:\ecommerceweb\core\bin\debug\net6.0\core.dll
-i:{00000000-0000-0000-0000-000000000000}:Core
-i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\core\core.csproj
-++Entity
-i:{d16ba37f-4896-43ad-8380-091c4041b40a}:e:\ecommerceweb\core\entity\
-++Product.cs
-i:{d16ba37f-4896-43ad-8380-091c4041b40a}:e:\ecommerceweb\core\entity\product.cs
+i:{29a77cbc-61da-4b2e-ba13-33ca6bbf53e0}:>652
 ++webapi1
 i:{00000000-0000-0000-0000-000000000000}:webapi1
 ++Connected Services 
-i:{ec02a231-4627-45ea-b541-e8362692de9c}:>569
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:>621
 ++Imports
-i:{ec02a231-4627-45ea-b541-e8362692de9c}:>294
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:>341
 ++Properties
 i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\properties\
 ++launchSettings.json
 i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\properties\launchsettings.json
+++API
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\
+++wwwroot
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\wwwroot\
+++images
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\wwwroot\images\
+++products
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\wwwroot\images\products\
+++boot-ang1.png
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\wwwroot\images\products\boot-ang1.png
+++boot-ang2.png
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\wwwroot\images\products\boot-ang2.png
+++boot-core1.png
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\wwwroot\images\products\boot-core1.png
+++boot-core2.png
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\wwwroot\images\products\boot-core2.png
+++boot-redis1.png
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\wwwroot\images\products\boot-redis1.png
+++glove-code1.png
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\wwwroot\images\products\glove-code1.png
+++glove-code2.png
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\wwwroot\images\products\glove-code2.png
+++glove-react1.png
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\wwwroot\images\products\glove-react1.png
+++glove-react2.png
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\wwwroot\images\products\glove-react2.png
+++hat-core1.png
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\wwwroot\images\products\hat-core1.png
+++hat-react1.png
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\wwwroot\images\products\hat-react1.png
+++hat-react2.png
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\wwwroot\images\products\hat-react2.png
+++sb-ang1.png
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\wwwroot\images\products\sb-ang1.png
+++sb-ang2.png
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\wwwroot\images\products\sb-ang2.png
+++sb-core1.png
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\wwwroot\images\products\sb-core1.png
+++sb-core2.png
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\wwwroot\images\products\sb-core2.png
+++sb-react1.png
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\wwwroot\images\products\sb-react1.png
+++sb-ts1.png
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\wwwroot\images\products\sb-ts1.png
 ++bin
 i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\bin\
 ++Controllers
-i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\controllers\
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\controllers\
 ++ProductController.cs
-i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\controllers\productcontroller.cs
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\controllers\productcontroller.cs
+++DTO
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\dto\
+++DtoConverter.cs
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\dto\dtoconverter.cs
+++ProductDto.cs
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\dto\productdto.cs
+++Helpers
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\helpers\
+++MappingProfile.cs
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\helpers\mappingprofile.cs
+++ProductURlHelper.cs
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\helpers\producturlhelper.cs
 ++obj
 i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\obj\
 ++appsettings.json
@@ -101,10 +209,18 @@ i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\bin\debug\net6.
 i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\mydb.db
 ++mydb1.db
 i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\mydb1.db
+++mydb2.db
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\mydb2.db
+++mydb3.db
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\mydb3.db
+++mydb3.db-shm
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\mydb3.db-shm
+++mydb3.db-wal
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\mydb3.db-wal
 ++Program.cs
 i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\program.cs
 ++No service dependencies discovered
-i:{ec02a231-4627-45ea-b541-e8362692de9c}:>570
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:>622
 ++Sdk.props
 i:{ec02a231-4627-45ea-b541-e8362692de9c}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\sdk\sdk.props
 i:{ec02a231-4627-45ea-b541-e8362692de9c}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.illink.tasks\sdk\sdk.props
@@ -146,12 +262,16 @@ i:{ec02a231-4627-45ea-b541-e8362692de9c}:c:\program files\dotnet\sdk\6.0.101\sdk
 i:{ec02a231-4627-45ea-b541-e8362692de9c}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
 ++Microsoft.AspNetCore.App
 i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\microsoft.aspnetcore.app
+++AutoMapper (11.0.0)
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:>954
+++AutoMapper.Extensions.Microsoft.DependencyInjection (11.0.0)
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:>955
 ++Microsoft.EntityFrameworkCore.Design (6.0.1)
-i:{ec02a231-4627-45ea-b541-e8362692de9c}:>581
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:>633
 ++Microsoft.EntityFrameworkCore.Sqlite (6.0.1)
-i:{ec02a231-4627-45ea-b541-e8362692de9c}:>583
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:>635
 ++Swashbuckle.AspNetCore (6.2.3)
-i:{ec02a231-4627-45ea-b541-e8362692de9c}:>582
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:>634
 ++Sdk.props (C:\Program Files\dotnet\sdk\6.0.101\Sdks\Microsoft.NET.Sdk\Sdk)
 i:{ec02a231-4627-45ea-b541-e8362692de9c}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\sdk\sdk.props
 ++Sdk.props (C:\Program Files\dotnet\sdk\6.0.101\Sdks\Microsoft.NET.Sdk.Razor\Sdk)
@@ -206,6 +326,10 @@ i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\obj\debug\net6.
 i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\obj\release\net6.0\ref\
 ++runtimes
 i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\bin\debug\net6.0\runtimes\
+++AutoMapper.dll
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\bin\debug\net6.0\automapper.dll
+++AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\bin\debug\net6.0\automapper.extensions.microsoft.dependencyinjection.dll
 ++Core.dll
 i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\bin\debug\net6.0\core.dll
 ++Core.pdb
@@ -247,15 +371,15 @@ i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\bin\debug\net6.
 ++webapi1.deps.json
 i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\bin\debug\net6.0\webapi1.deps.json
 ++webapi1.dll
-i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\bin\debug\net6.0\webapi1.dll
 i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\obj\debug\net6.0\webapi1.dll
-i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\bin\debug\net6.0\ref\webapi1.dll
 i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\obj\debug\net6.0\ref\webapi1.dll
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\bin\debug\net6.0\ref\webapi1.dll
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\bin\debug\net6.0\webapi1.dll
 ++webapi1.exe
 i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\bin\debug\net6.0\webapi1.exe
 ++webapi1.pdb
-i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\bin\debug\net6.0\webapi1.pdb
 i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\obj\debug\net6.0\webapi1.pdb
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\bin\debug\net6.0\webapi1.pdb
 ++webapi1.runtimeconfig.json
 i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\bin\debug\net6.0\webapi1.runtimeconfig.json
 ++staticwebassets
@@ -266,14 +390,16 @@ i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\obj\debug\net6.
 i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\obj\release\net6.0\.netcoreapp,version=v6.0.assemblyattributes.cs
 ++apphost.exe
 i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\obj\debug\net6.0\apphost.exe
+++d1ee9046-a60d-4944-9db6-de129d828c36_webapi1.pdb
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\obj\debug\net6.0\d1ee9046-a60d-4944-9db6-de129d828c36_webapi1.pdb
 ++staticwebassets.build.json
 i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\obj\debug\net6.0\staticwebassets.build.json
 ++webapi1.AssemblyInfo.cs
-i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\obj\debug\net6.0\webapi1.assemblyinfo.cs
 i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\obj\release\net6.0\webapi1.assemblyinfo.cs
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\obj\debug\net6.0\webapi1.assemblyinfo.cs
 ++webapi1.AssemblyInfoInputs.cache
-i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\obj\debug\net6.0\webapi1.assemblyinfoinputs.cache
 i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\obj\release\net6.0\webapi1.assemblyinfoinputs.cache
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\obj\debug\net6.0\webapi1.assemblyinfoinputs.cache
 ++webapi1.assets.cache
 i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\obj\debug\net6.0\webapi1.assets.cache
 i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\obj\release\net6.0\webapi1.assets.cache
@@ -286,8 +412,8 @@ i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\obj\debug\net6.
 ++webapi1.csproj.FileListAbsolute.txt
 i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\obj\debug\net6.0\webapi1.csproj.filelistabsolute.txt
 ++webapi1.GeneratedMSBuildEditorConfig.editorconfig
-i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\obj\debug\net6.0\webapi1.generatedmsbuildeditorconfig.editorconfig
 i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\obj\release\net6.0\webapi1.generatedmsbuildeditorconfig.editorconfig
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\obj\debug\net6.0\webapi1.generatedmsbuildeditorconfig.editorconfig
 ++webapi1.genruntimeconfig.cache
 i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\obj\debug\net6.0\webapi1.genruntimeconfig.cache
 ++webapi1.GlobalUsings.g.cs
@@ -591,3 +717,34 @@ i:{ec02a231-4627-45ea-b541-e8362692de9c}:c:\users\lenovo\.nuget\packages\microso
 i:{ec02a231-4627-45ea-b541-e8362692de9c}:c:\program files\microsoft visual studio\2022\community\msbuild\sdks\microsoft.docker.sdk\build\microsoft.docker.targets
 ++Microsoft.Web.IISSupport.targets
 i:{ec02a231-4627-45ea-b541-e8362692de9c}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\managed.web\microsoft.web.iissupport.targets
+++boot-ang1 - Copy.png
+++a.png.png
+++a.png
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\wwwroot\images\products\a.png
+++webapi1.csproj.user
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\webapi1.csproj.user
+++BaseApiController.cs
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\controllers\baseapicontroller.cs
+++BuggyController.cs
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\controllers\buggycontroller.cs
+++NewFolder
+++Errors
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\errors\
+++ApiResponse.cs
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\errors\apiresponse.cs
+++ErrorController.cs
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\controllers\errorcontroller.cs
+++ApiException.cs
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\errors\apiexception.cs
+++MiddleWare
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\middleware\
+++ExceptionMiddleWare.cs
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\middleware\exceptionmiddleware.cs
+++ApiRequestValidator.cs
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\errors\apirequestvalidator.cs
+++Extensions
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\extensions\
+++ApplicationServiceExtensions.cs
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\extensions\applicationserviceextensions.cs
+++SwaggerServiceExtensions.cs
+i:{ec02a231-4627-45ea-b541-e8362692de9c}:e:\ecommerceweb\webapi1\api\extensions\swaggerserviceextensions.cs

@@ -1,12 +1,8 @@
 ﻿using Core.Entity;
 using Core.Interfaces;
+using Core.Specifications;
 using Infrastucture.Data;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Infrastucture.Repository
 {
@@ -32,11 +28,40 @@ namespace Infrastucture.Repository
 
         }
 
+
         public async Task<IReadOnlyList<T1>> ListAllAsync()
         {
             var itemList = await _storeContext.Set<T1>().ToListAsync();
 
             return itemList;
+        }
+
+
+
+        public async Task<T1> GetEntityWithSpec(ISpecification<T1> spec)
+        {
+            return await ApplySpecefication(spec).FirstOrDefaultAsync();
+        }
+
+        public async Task<IReadOnlyList<T1>> ListAsync(ISpecification<T1> spec)
+        {
+            return await ApplySpecefication(spec).ToListAsync();
+
+
+        }
+
+
+        private IQueryable<T1> ApplySpecefication(ISpecification<T1> spec)
+        {
+
+            return SpeceficationEvaluator<T1>.GetQuery
+                    (_storeContext.Set<T1>().AsQueryable(), spec);
+        
+        }
+
+        public async Task<int> CountAsync(ISpecification<T1> spec)
+        {
+            return await ApplySpecefication(spec).CountAsync();
         }
     }
 }

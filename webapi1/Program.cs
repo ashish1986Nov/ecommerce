@@ -22,6 +22,20 @@ builder.Services.AddSwaggerServiceExtensions();
 
 
 
+builder.Services.AddCors(opt =>
+{
+    opt.AddPolicy("corspolicy", policy =>
+    {
+
+        policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+
+
+    });
+
+});
+    
+    
+
 builder.Services.AddDbContext<StoreContext>(option => option.UseSqlite(builder.Configuration.GetConnectionString("myconnectionstring")));
 
 
@@ -42,8 +56,11 @@ app.UseStatusCodePagesWithRedirects("/customerror/{0}");
 app.UseHttpsRedirection();
 app.UseRouting();
 app.UseStaticFiles();
+app.UseCors("corspolicy");
+
 
 app.UseAuthorization();
+
 
 app.MapControllers();
 

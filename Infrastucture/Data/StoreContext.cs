@@ -30,6 +30,23 @@ namespace Infrastucture.Data
             base.OnModelCreating(modelbuilder);
             modelbuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
 
+            if (String.Compare(Database.ProviderName, "Microsoft.EntityFrameworkCore.Sqlite", true) == 0)
+            {
+                foreach (var entityType in modelbuilder.Model.GetEntityTypes())
+                {
+                    var properties = entityType.ClrType.GetProperties()
+                        .Where(p => p.PropertyType == typeof(decimal));
+
+                    foreach (var property in properties)
+                    {
+                        modelbuilder.Entity(entityType.Name).Property(property.Name)
+                            .HasConversion<double>();
+
+                    }
+
+
+                }
+            }
 
 
 
