@@ -1,7 +1,15 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\client",
+    "\\client\\src",
+    "\\client\\src\\app",
+    "\\client\\src\\app\\models",
+    "\\client\\src\\app\\nav-bar",
+    "\\client\\src\\assets",
+    "\\client\\src\\environments",
+    "\\client\\ssl"
   ],
-  "SelectedNode": "\\EcommerceWeb.sln",
+  "SelectedNode": "\\client\\src\\app\\models\\pageinitation.ts",
   "PreviewInSolutionExplorer": false
 }
