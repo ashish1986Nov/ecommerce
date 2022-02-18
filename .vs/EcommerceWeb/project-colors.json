@@ -25,7 +25,12 @@
       "ProjectGuid": "5b5c4ece-210e-4375-ae9e-5c7eeb078171",
       "DisplayName": "client",
       "ColorIndex": 3
+    },
+    "9ef0df71-5a8c-4a2d-8ffe-9e8bc973d18c": {
+      "ProjectGuid": "9ef0df71-5a8c-4a2d-8ffe-9e8bc973d18c",
+      "DisplayName": "client1",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 4
+  "NextColorIndex": 5
 }
