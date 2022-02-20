@@ -88,15 +88,12 @@
         <!--page events-->
         <div class="col-xs-12 col-12"  *ngIf="totalCount!=0">
           <app-pager
-                       [pageNumber]="this.shopParams.pageNumber"
+          [pageNumber]="this.shopParams.pageNumber"
           [pageSize]="this.shopParams.pageSize"
           [totalCount]="this.totalCount"
-          (pageChanged)="OnPageChanged($event)"
-
-                     > 
+          (pageChanged)="OnPageChanged($event)" ></app-pager>
 
 
-          </app-pager>
         </div>
       </div>
 
