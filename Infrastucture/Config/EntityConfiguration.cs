@@ -13,6 +13,7 @@ namespace Infrastucture.Config
             builder.Property(p => p.Description).HasMaxLength(100).IsRequired();
             builder.Property(p => p.Price).HasColumnType("Decimal(18,2)");
             builder.HasOne(p => p.ProductBrand).WithMany();
+
         }
 
         public void Configure(EntityTypeBuilder<ProductType> builder)
