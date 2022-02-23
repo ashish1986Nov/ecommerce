@@ -8,6 +8,7 @@ namespace Infrastucture.Data
     {
         private static object a;
 
+
         public static IQueryable<TEntity> GetQuery(IQueryable<TEntity> inputQuery,
             ISpecification<TEntity> spec )
 
