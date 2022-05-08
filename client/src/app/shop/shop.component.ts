@@ -14,7 +14,7 @@ import { ShopParams } from '../shared/models/shopparams';
 })
 export class ShopComponent implements OnInit {
 
-  @ViewChild('search', { static: true }) searchTerm: ElementRef;
+  @ViewChild('search', { static: false }) searchTerm: ElementRef;
 
 
   products: IProduct[];
@@ -48,12 +48,9 @@ export class ShopComponent implements OnInit {
       response => {
 
         this.products = response.data;
-
         this.shopParams.pageSize = response.pageSize;
         this.shopParams.pageNumber = response.pageIndex;
         this.totalCount = response.count;
-
-
       }, error => {
 
         console.log(error);

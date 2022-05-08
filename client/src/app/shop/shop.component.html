@@ -2,49 +2,51 @@
   <div class="row">
     <section class="col-3">
 
-      <h5 class="text-warning ml-3 my-2"> Sort</h5>
+      <ng-conatiner  *ngIf="prdouctTypes && brands">
 
-      <options *ngFor="let sortOption of SortOptions"> </options>
-      <select class="custom-select mb-3" (change)= "OnSortSelected($event.target.value)">
-        
-        <option *ngFor="let sortOption of SortOptions"
-                [class.active]="sortOption.value===this.shopParams.sortOrder"
-                [value]="sortOption.value">
+        <h5 class="text-warning ml-3 my-2"> Sort</h5>
 
-          {{sortOption.name}}
-        </option>
+        <options *ngFor="let sortOption of SortOptions"> </options>
+        <select class="custom-select mb-3" (change)="OnSortSelected($event.target.value)">
 
+          <option *ngFor="let sortOption of SortOptions"
+                  [class.active]="sortOption.value===this.shopParams.sortOrder"
+                  [value]="sortOption.value">
 
-      </select>
-
-
-      <h5 class="text-warning ml-3 my-1"> Brands</h5>
-      <ul class="list-group my-3">
-        <li class="list-group-item" *ngFor="let brand of brands"
-            [class.active]="brand.id===this.shopParams.brandId "
-            [value]="brand.id"
-            (click)="OnBrandSelected(brand.id)">
-          {{brand.name}}
-        </li>
+            {{sortOption.name}}
+          </option>
 
 
-      </ul>
-
-      <h5 class="text-warning ml-3"> Types</h5>
-      <ul class="list-group my-3">
-        <li class="list-group-item" *ngFor="let producttype of prdouctTypes"
-            [class.active]="producttype.id===this.shopParams.typeId "
-            [value]="producttype.id"
-            (click)="OnProductTypeSelected(producttype.id)">
-
-          {{producttype.name}}
+        </select>
 
 
-        </li>
+        <h5 class="text-warning ml-3 my-1"> Brands</h5>
+        <ul class="list-group my-3">
+          <li class="list-group-item" *ngFor="let brand of brands"
+              [class.active]="brand.id===this.shopParams.brandId "
+              [value]="brand.id"
+              (click)="OnBrandSelected(brand.id)">
+            {{brand.name}}
+          </li>
 
-      </ul>
+
+        </ul>
+
+        <h5 class="text-warning ml-3"> Types</h5>
+        <ul class="list-group my-3">
+          <li class="list-group-item" *ngFor="let producttype of prdouctTypes"
+              [class.active]="producttype.id===this.shopParams.typeId "
+              [value]="producttype.id"
+              (click)="OnProductTypeSelected(producttype.id)">
+
+            {{producttype.name}}
 
 
+          </li>
+
+        </ul>
+
+      </ng-conatiner>
     </section>
 
 
@@ -62,7 +64,7 @@
 
       </div>
 
-      <div class="form-check mt-2">
+      <div class="form-check mt-2" *ngIf="products" >
 
         <input class="form-control"  (keyup.enter)="OnSearch()"  style="width:300px" #search placeholder="Search" type="text" />
 

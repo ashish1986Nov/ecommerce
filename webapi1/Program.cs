@@ -32,13 +32,10 @@ builder.Services.AddCors(opt =>
 
     });
 
-});
-    
+});   
     
 
 builder.Services.AddDbContext<StoreContext>(option => option.UseSqlite(builder.Configuration.GetConnectionString("myconnectionstring")));
-
-
 
 
 var app = builder.Build();

@@ -8,7 +8,7 @@ const shoproutes: Routes = [
 
  
   {path : '' ,  component  : ShopComponent},
-  {path : ':id' ,  component  : ProductDetailComponent},
+  { path: ':id', component: ProductDetailComponent, data: { breadcrumb: {alias:'productdetails'} }},
   
 ];
 

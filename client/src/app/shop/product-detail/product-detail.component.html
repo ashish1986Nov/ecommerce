@@ -1,48 +1,91 @@
+<div class="container mt-5">
 
+  <div *ngIf="productDetails">
+    <div class="col-6">
+      <img src="{{productDetails.pictureUrl}}" alt="{{productDetails.name}}"
+           class="img-fluid w-100">
 
-<div *ngIf="productDetails">
-    <div class="col-6"> 
-        <img src= "{{productDetails.pictureUrl}}" alt="{{productDetails.name}}"
-        class="img-fluid w-100"
-        >
-    
     </div>
     <div class="col-6">
-        
-    <h3> {{productDetails.name}} </h3>
-    <p> {{productDetails.price | currency  }} </p>
-    <div class ="d-flex justify-content-start align-item-center">
-       <i class="fa fa-minus-circle text-warning"
-       style="cursor: pointer; font-size: 2em mr-2;"
-       >     </i>
 
-       <span class="font-weight-bold" style="font-size:1.5em" >2 </span>
+      <h3> {{productDetails.name}} </h3>
+      <p> {{productDetails.price | currency  }} </p>
+      <div class="d-flex justify-content-start align-item-center">
+        <i class="fa fa-minus-circle text-warning"
+           style="cursor: pointer; font-size: 2em mr-2;">     </i>
 
-       <i class="fa fa-plus-circle text-warning mx-2"
-       style="cursor: pointer; font-size: 2em;"
-       >     </i>
+        <span class="font-weight-bold" style="font-size:1.5em">2 </span>
 
-       <button class="btn btn-outline-secondary btn-lg ml-4">
-        AddToCart
-       </button>
+        <i class="fa fa-plus-circle text-warning mx-2"
+           style="cursor: pointer; font-size: 2em;">     </i>
 
-    </div>
-    <div>
+        <button class="btn btn-outline-secondary btn-lg ml-4">
+          AddToCart
+        </button>
+
+      </div>
+      <div>
 
 
-    </div>
+      </div>
 
     </div>
-<div class="row mt-5">
-<div class="col-12 ml-3">
-    <h4>Description</h4>
-    <p>
-        {{productDetails.description}}  
-    </p>
+    <div class="row mt-5">
+      <div class="col-12 ml-3">
+        <h4>Description</h4>
+        <p>
+          {{productDetails.description}}
+        </p>
 
-</div>
+      </div>
 
 
-</div>
+    </div>
 
+  </div>
+</div><div class="container mt-5">
+
+  <div *ngIf="productDetails">
+    <div class="col-6">
+      <img src="{{productDetails.pictureUrl}}" alt="{{productDetails.name}}"
+           class="img-fluid w-100">
+
+    </div>
+    <div class="col-6">
+
+      <h3> {{productDetails.name}} </h3>
+      <p> {{productDetails.price | currency  }} </p>
+      <div class="d-flex justify-content-start align-item-center">
+        <i class="fa fa-minus-circle text-warning"
+           style="cursor: pointer; font-size: 2em mr-2;">     </i>
+
+        <span class="font-weight-bold" style="font-size:1.5em">2 </span>
+
+        <i class="fa fa-plus-circle text-warning mx-2"
+           style="cursor: pointer; font-size: 2em;">     </i>
+
+        <button class="btn btn-outline-secondary btn-lg ml-4">
+          AddToCart
+        </button>
+
+      </div>
+      <div>
+
+
+      </div>
+
+    </div>
+    <div class="row mt-5">
+      <div class="col-12 ml-3">
+        <h4>Description</h4>
+        <p>
+          {{productDetails.description}}
+        </p>
+
+      </div>
+
+
+    </div>
+
+  </div>
 </div>

@@ -1,0 +1,33 @@
+<ng-container  *ngIf="(breadcrumbs | async) as breadcrumbProp " >
+  <section *ngIf="breadcrumbProp.length > 0 && breadcrumbProp[breadcrumbProp.length-1].label !='HOME'  " class="py-5" style="margin-top: 105px ; background-color : red">
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-9">
+          <h1>{{breadcrumbProp.length > 0 && breadcrumbProp[breadcrumbProp.length-1].label}}</h1>
+
+
+        </div>
+
+        <div class="col-3">
+          <xng-breadcrumb></xng-breadcrumb>
+          <!--<nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="#">Library</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Data</li>
+            </ol>
+          </nav>-->
+
+
+
+        </div>
+
+
+
+      </div>
+
+    </div>
+
+  </section>
+</ng-container>
+
